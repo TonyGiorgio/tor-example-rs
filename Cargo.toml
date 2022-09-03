@@ -9,5 +9,5 @@ edition = "2021"
 tor = { git = "https://github.com/Sifir-io/sifir-rs-sdk" }
 tor-stream = "0.3.0"
 # openssl = { version = "0.10", features = ["vendored"] }
-# libtor = { version = "45.9.0+0.4.5.9", features = ["vendored-lzma","vendored-zstd"] }
-libtor = { version= "45.8.0+0.4.5.8", features=["vendored-openssl", "vendored-zstd"] }
+libtor = { version = "45.8.0+0.4.5.8", features = ["vendored-lzma","vendored-zstd"] }
+# libtor = { version= "45.8.0+0.4.5.8", features=["vendored-openssl", "vendored-zstd"] }
