@@ -1,0 +1,10 @@
+[package]
+name = "tor-example-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tor = { git = "https://github.com/Sifir-io/sifir-rs-sdk" }
+tor-stream = "0.3.0"
